@@ -10,8 +10,21 @@ namespace OOP.Constructions
     {
         public Construction()
         {
-            
+            Height = 23;
+            Width = 43;
+            Entrances = 3;
+            HumanCapacity = 2;
+            BuildMaterial = "Material";
         }
+        public Construction(CreateConstructionDTO construction)
+        {
+            Height = 23;
+            Width = 43;
+            Entrances = 3;
+            HumanCapacity = 2;
+            BuildMaterial = "Material";
+        }
+
         public Construction(float height,float width, int entrances, int humanCapacity, string buildMaterial)
         {
             Height = height;
